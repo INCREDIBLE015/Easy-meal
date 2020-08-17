@@ -5,7 +5,7 @@ p{
 }
 .App {
   min-height: 100vh;
-  background: #eaeaea;
+  background: url(/img/food3.jpeg);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -37,8 +37,10 @@ p{
 .search-bar{
   width: 50%;
   padding: 1.2em;
-  border: none;
+  border: 100px;
   outline: none;
+  justify-content: center;
+  align-items: center;
 }
 
 ::placeholder{
@@ -47,7 +49,7 @@ p{
 
 .search-button{
   font-family: 'Poppins', sans-serif;
-  background: darkorchid;
+  background: #0d47a1;
   border: none;
   padding: 1em 2em;
   color: white;
@@ -86,5 +88,3 @@ p{
     opacity: 1;
   }
 } */
-
-/*TODO: GET ANIMATIONS WORKING*/
